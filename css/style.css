@@ -9,6 +9,7 @@ h1 {
   font-size: 6rem;
 }
 
+
 header {
   background: url("../img/1.jpg") no-repeat fixed center / cover;
   padding: 10px;
@@ -38,18 +39,21 @@ ul li {
   padding: 10px;
 }
 
-.info2 {
-  margin-top: 30px;
-}
-
-.info2-2 {
-  margin-top: 30px;
-}
-
 .info3 {
   background: rgba(255,255,255,.3);
   padding: 20px;
   border-radius: 5px;
+  height: 400px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.info4 {
+  background: rgba(255,255,255,.3);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 a {
@@ -58,11 +62,60 @@ a {
 }
 
 .about_edu {
-  padding: 50px;
-  background: url("../img/2.jpg") no-repeat fixed center / cover;
+  padding: 30px;
+  background: url("../img/3.jpg") no-repeat fixed center / cover;
   color: black;
+  border-top: 1px solid white;
 }
 
+.about_work {
+  padding: 30px;
+  background: url("../img/2.jpg") no-repeat fixed center / cover;
+  color: black;
+  border-top: 1px solid white;
+}
 
+.no-v {
+  visibility: hidden;
+}
 
+.a_work {
+  color: white;
+  text-align: center;
+}
 
+.contact {
+  background: #171616;
+  text-align: center;
+  border-top: 1px solid white;
+}
+
+.contact ul li {
+  display: inline;
+}
+
+.contact ul a {
+  margin-top: 50px;
+  box-shadow: none;
+  background: none;
+  margin-left: 30px;
+}
+
+.contact li:nth-child(1) a {
+  margin-left: 0;
+}
+
+.contact span {
+  font-size: 2em;
+  color: white;
+  -webkit-transition: color ease .4s;
+          transition: color ease .4s;
+}
+
+.contact span:hover {
+  color: #ff0000;
+}
+
+.over {
+  margin-top: 35px;
+}

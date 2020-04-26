@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Виталий Шелудько. Резюме</title>
+    <title>Виталий Шелудько</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" media="screen, projection" href="css/ui.totop.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <header>
       <div class="container">
         <div class="row">
@@ -27,7 +28,7 @@
           </div>
           <div class="three columns">
             <div class="foto">
-              <img src="img/me.jpg" alt="Я" />
+              <img src="img/me.jpg" class="u-max-full-width" alt="Я" />
             </div>
           </div>
         </div>
@@ -38,27 +39,34 @@
       <div class="container">
         <div class="row">
           <div class="seven columns">
-            <div class="info2">
-              <h2>Контактная информация</h2>
+            <h2>Контактная информация</h2>
+            <div>
               <ul>
-              <li><h5>ДНР</h5></li>
-              <li>г. Донецк</li>
-              <li>+380714600960</li>
-              <li>sheludko.vo@gmail.com</li>
-              <li><a href="https://github.com/stigmat-svo">GitHub</a></li>
+                <li>ДНР</li>
+                <li>г. Донецк</li>
+                <li>+380714600960</li>
+                <li>sheludko.vo@gmail.com</li>
+                <li><a href="https://github.com/stigmat-svo">GitHub</a></li>
               </ul>
             </div>
           </div>
+          <h2>Навыки</h2>
           <div class="five columns">
-            <div class="info2-2">
-              <h2>Навыки</h2>
+            <div class="one-half column">
+              <div>
                 <ul>
                   <li>Ruby</li>
                   <li>Ruby on Rails</li>
                   <li>HTML, CSS</li>
                   <li>MySQL, SQLite3</li>
                   <li>Git</li>
-                  <li>XML, JSON</li>
+                </ul>
+              </div>
+            </div>
+            <div class="one-half column">
+              <div>
+                <ul>
+                  <li>XML, JSON</>
                   <li>Skeleton, Bootstrap 4</li>
                   <li>ООП</li>
                   <li>Heroku</li>
@@ -74,36 +82,144 @@
     <section class="about_edu">
       <div class="container">
         <div class="row">
-          
-            <div class="six columns info3">
-             
-              <ul>
-                <li><h2>Образование</h2></li>
-                <li>Приазовский Государственный Технический Университет</li>
-                <li><b>Специальность:</b></li>
-                <li>Информатика и прикладная математика</li>
-                <li><b>Статус:</b></li>
-                <li>Специалист</li>
-              </ul>
-              </div>
-
-              <div class="six columns info3">
-                
-                <ul>
-                  <li><h2>Качества</h2></li>
-                  <li>Ответственный</li>
-                  <li>Исполнительный</li>
-                  <li>Внимательный</li>
-                  <li>Порядочный</li>
-                  <li>Коммуникабельный</li>
-                  <li>Легко обучаюсь</li>
-                </ul>
-              </div>
+          <div class="six columns info3">
+            <ul>
+              <li><h2>Образование</h2></li>
+              <li>Приазовский Государственный Технический Университет</li>
+              <li><b>Специальность:</b></li>
+              <li>Информатика и прикладная математика</li>
+              <li><b>Статус:</b></li>
+              <li>Специалист</li>
+            </ul>
           </div>
+
+          <div class="six columns info3">
+            <ul>
+              <li><h2>Качества</h2></li>
+              <li>Ответственный</li>
+              <li>Исполнительный</li>
+              <li>Внимательный</li>
+              <li>Порядочный</li>
+              <li>Коммуникабельный</li>
+              <li>Легко обучаюсь</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="six columns info3">
+            <ul>
+              <li><h2>Хобби</h2></li>
+              <li>Видео-, аудио- монтаж</li>
+              <li>Верстка</li>
+              <li>Книги</li>
+              <li>Музыка</li>
+              <li>Кино</li>
+            </ul>
+          </div>
+
+          <div class="six columns info3">
+            <ul>
+              <li><h2>Курсы</h2></li>
+              <li><b>2017 год</b></li>
+              <li>Компьютерная академия "ШАГ"</li>
+              <li>Программирование 1С</li>
+              <li><b>2020 год</b></li>
+              <li>Онлайн-школа "Хороший программист"</li>
+              <li>Разработчик Ruby on Rails</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about_work">
+      <div class="container">
+        <div class="row">
+          <div class="one columns"></div>
+          <h2 class="a_work">Опыт работы</h2>
+          <div class="eleven columns info4">
+            <div class="one-half column">
+              <ul>
+                <li>
+                  <ul>
+                    <li><h4>ОАО ПСП "Азовинтекс"</h4></li>
+                    <li><i>Оператор станков с ЧПУ</i></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><h4>ООО "SHOKK Marine"</h4></li>
+                    <li><i>Системный администратор</i></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><h4>ОАО "Сателлит"</h4></li>
+                    <li><i>Инженер ОКИП</i></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="one-half column">
+              <ul>
+                <li>
+                  <ul>
+                    <li><h4>Медиа-группа "НАДО"</h4></li>
+                    <li><i>Менеджер по работе с клиентами</i></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><h4>Интернет-провайдер "Trinity"</h4></li>
+                    <li><i>Монтажник LAN сетей</i></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><h4>РРЦ МЗ ДНР</h4></li>
+                    <li><i>Системный администратор</i></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns over">
+            <ul>
+              <li>
+                <a target="blank" href="https://vk.com/donetskiy_v" title=""
+                  ><span class="fa fa-vk"></span
+                ></a>
+              </li>
+              <li>
+                <a target="blank" href="https://t.me/stigmat_online" title=""
+                  ><span class="fa fa-telegram"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="blank"
+                  href="https://www.linkedin.com/in/%D0%B2%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9-%D1%88%D0%B5%D0%BB%D1%83%D0%B4%D1%8C%D0%BA%D0%BE-467aba198/"
+                  title=""
+                  ><span class="fa fa-linkedin"></span
+                ></a>
+              </li>
+              <li>
+                <a target="blank" href="https://github.com/stigmat-svo" title=""
+                  ><span class="fa fa-github"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
