@@ -18,6 +18,9 @@ header {
 ul li {
   list-style: none;
 }
+.skills {
+  margin-top: 70px;
+}
 
 .foto {
   border: 1px solid #ffffff;
@@ -35,7 +38,7 @@ ul li {
 }
 
 .about_me {
-  background: url("../img/1.jpg") no-repeat fixed center / cover;
+  margin-top: 20px;
   padding: 10px;
 }
 
