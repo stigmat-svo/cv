@@ -123,11 +123,12 @@ a {
 }
 
 ul.nav {
-  margin: 0; 
+  margin: 0;
   padding: 4px;
 }
 
- ul.nav li {
-  display: inline; 
-  margin-right: 5px; 
- }
+ul.nav li {
+  display: inline;
+  margin-right: 5px;
+}
+
